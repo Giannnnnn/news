@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    font-family: "glbOpenSans", "Open Sans";
+  }
+  
+  .imagem-noticia{
+    object-fit: fill;
+    height: 30vw;
+    width: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85rem;
+    margin-top: 30px;
+    border: 1px solid black;
+  }
+  
+  h1{
+    display: flex;
+    padding-left: 10px;
+    font-size: 48px;
+    align-self: flex-start;
+  }
+  
+  .noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 22%;
+    margin-left: 22%;
+  }
+  
+  .subtitle{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-self: flex-start;
+    color:#555;
+    font-size: 20px;
+  }
+  
+  .texto-aux{
+    display: flex;
+    align-self: flex-start;
+    color:#555;
+    font-size: 20px;
+  }
+  
