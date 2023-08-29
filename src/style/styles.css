@@ -1,7 +1,41 @@
 body{
-    background-color: white;
-    font-family: "glbOpenSans", "Open Sans";
+  background-color: white;
+  font-family: "glbOpenSans", "Open Sans";
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+.ctn {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ctn > h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.coluna {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .coluna {
+    width: 100%;
+    float: none;
   }
+}
   
   .imagem-noticia{
     object-fit: fill;
@@ -45,4 +79,4 @@ body{
     color:#555;
     font-size: 20px;
   }
-  
+ 
